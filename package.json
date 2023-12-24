@@ -1,0 +1,41 @@
+{
+  "name": "@sunwise/stylelint-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "license": "MTI",
+  "homepage": "https://github.com/sunwise-fe/stylelint-config#readme",
+  "bugs": {
+    "url": "https://github.com/sunwise-fe/stylelint-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunwise-fe/stylelint-config.git"
+  },
+  "author": "zuopf769 <469547164@qq.com> (https://github.com/zuopf769)",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "release": "bumpp && pnpm publish"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "stylelint": "^16.0.2",
+		"stylelint-config-html": "^1.1.0",
+		"stylelint-config-prettier": "^9.0.5",
+		"stylelint-config-recess-order": "^4.4.0",
+		"stylelint-config-recommended": "^14.0.0",
+		"stylelint-config-recommended-vue": "^1.5.0",
+		"stylelint-config-standard": "^35.0.0",
+		"stylelint-config-standard-scss": "^12.0.0",
+		"stylelint-order": "^6.0.4",
+		"stylelint-prettier": "^5.0.0"
+  },
+  "devDependencies": {
+    "bumpp": "^9.2.1"
+  }
+}
